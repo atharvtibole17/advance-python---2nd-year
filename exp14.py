@@ -50,3 +50,24 @@ for handler in logger.handlers:
 
 logger.handlers.clear()
 
+# OUTPUT
+INFO - This is an INFO message
+WARNING - This is a WARNING message
+ERROR - This is an ERROR message
+CRITICAL - This is a CRITICAL message
+ERROR - Division failed
+Traceback (most recent call last):
+  File "your_file.py", line 35, in <module>
+    result = 10 / 0
+ZeroDivisionError: division by zero
+
+2026-11-25 12:30:00,000 - AppLogger - DEBUG - This is a DEBUG message
+2026-11-25 12:30:00,000 - AppLogger - INFO - This is an INFO message
+2026-11-25 12:30:00,000 - AppLogger - WARNING - This is a WARNING message
+2026-11-25 12:30:00,000 - AppLogger - ERROR - This is an ERROR message
+2026-11-25 12:30:00,000 - AppLogger - CRITICAL - This is a CRITICAL message
+2026-11-25 12:30:00,000 - AppLogger - ERROR - Division failed
+Traceback (most recent call last):
+  File "your_file.py", line 35, in <module>
+    result = 10 / 0
+ZeroDivisionError: division by zero
