@@ -58,3 +58,36 @@ r2.generate_report()
 # Using magic method __str__
 print("\nObject Information:")
 print(r1)
+
+
+# OUTPUT
+========================================
+Student Report
+Student Name: Rahul
+Marks: 85
+Result: PASS
+========================================
+========================================
+Student Report
+Student Name: Sneha
+Marks: 35
+Result: FAIL
+========================================
+
+After changing template:
+
+========================================
+Student Performance Report
+Student Name: Rahul
+Marks: 85
+Result: PASS
+========================================
+========================================
+Student Performance Report
+Student Name: Sneha
+Marks: 35
+Result: FAIL
+========================================
+
+Object Information:
+Student Performance Report --> Rahul - Marks: 85
