@@ -54,3 +54,16 @@ match choice:
     case _:
         print("Invalid payment method")
         exit()
+
+
+# OUTPUT
+=== Online Shopping Payment ===
+Enter amount: ₹500
+
+Select Payment Method:
+1. Credit Card
+2. UPI
+3. PayPal
+Enter your choice: 2
+
+Paid ₹500 using UPI
