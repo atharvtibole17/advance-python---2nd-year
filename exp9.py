@@ -12,3 +12,10 @@ for email in emails:
     print(email)
 
 print("Total emails:", len(emails))
+
+# OUTPUT
+Email addresses found:
+abc@gmail.com
+xyz@yahoo.com.
+student123@college.edu.
+Total emails: 3
