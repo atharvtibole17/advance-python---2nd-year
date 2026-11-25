@@ -15,3 +15,9 @@ with open("Output.txt", "w") as file:
     file.writelines(first_two_lines)
 
 print("\n First two line succesfully written to Output.txt")
+
+# OUTPUT
+['hello im chetakworking as student in MITmy department is CSE']
+No. of lines in file = 1
+
+ First two line succesfully written to Output.txt
