@@ -18,3 +18,9 @@ memo = {}
 result = fibonacci(n,memo)
 print("FIBONACCI NUMBER:",result)
 print(memo)
+
+
+# OUTPUT
+ENTER n: 7
+FIBONACCI NUMBER: 13
+{2: 1, 3: 2, 4: 3, 5: 5, 6: 8, 7: 13}
