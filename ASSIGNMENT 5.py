@@ -46,3 +46,9 @@ result = find_lcs(X, Y)
 # Display result
 print("Longest Common Subsequence:", result)
 print("Length of LCS:", len(result))
+
+# OUTPUT
+Enter first sequence: ABCDGH
+Enter second sequence: AEDFHR
+Longest Common Subsequence: ADH
+Length of LCS: 3
