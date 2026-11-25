@@ -23,3 +23,9 @@ s3 = Student("Amit")
 print("After 3rd Object:", tracemalloc.get_traced_memory()[0], "bytes")
 
 tracemalloc.stop()
+
+# OUTPUT
+Initial Memory: 0 bytes
+After 1st Object: 8328 bytes
+After 2nd Object: 16456 bytes
+After 3rd Object: 24584 bytes
