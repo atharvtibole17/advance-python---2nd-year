@@ -36,3 +36,27 @@ def main():
     print("All tasks completed.")
 
 main()
+
+# OUTPUT 
+Count: 2
+Square of 2 = 4
+Cube of 2 = 8
+Count: 3
+Square of 3 = 9
+Cube of 3 = 27
+Count: 4
+Square of 4 = 16
+Cube of 4 = 64
+Count: 5
+Square of 5 = 25
+Cube of 5 = 125
+Count: 6
+Square of 6 = 36
+Cube of 6 = 216
+Count: 7
+Square of 7 = 49
+Cube of 7 = 343
+Count: 8
+Square of 8 = 64
+Cube of 8 = 512
+All tasks completed.
