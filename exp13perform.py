@@ -35,6 +35,20 @@ def main():
     t2.join()
     t3.join()
 
+    # OUTPUT
+    Count: 1
+1 is Odd
+Count: 2
+2 is Even
+1 is Odd
+Count: 3
+Count: 4
+3 is Odd
+4 is Even
+Count: 5
+5 is Odd
+All tasks completed.
+
     print("All tasks completed.")
 
 main()
