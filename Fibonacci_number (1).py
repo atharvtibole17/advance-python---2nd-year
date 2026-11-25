@@ -33,3 +33,13 @@ if __name__ == "__main__":
             print(f"The {user_input}th Fibonacci number is: {result}")
     except ValueError:
         print("Invalid input! Please enter an integer.")
+
+# OUTPUT
+Enter the value of n: 7
+The 7th Fibonacci number is: 13
+
+Enter the value of n: 0
+The 0th Fibonacci number is: 0
+
+Enter the value of n: -5
+Please enter a non-negative integer.
